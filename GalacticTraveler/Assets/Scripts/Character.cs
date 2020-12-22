@@ -17,5 +17,40 @@ public class Character
     public int BaseInteligence;
     public int BaseCharisma;
 
+    public int GetStrength()
+    {
+        int value = this.BaseStrength;
 
+        return value;
+    }
+    public int GetAgility()
+    {
+        int value = this.BaseAgility;
+
+        return value;
+    }
+    public int GetPerception()
+    {
+        int value = this.BasePerception;
+
+        return value;
+    }
+    public int GetToughness()
+    {
+        int value = this.BaseToughness;
+
+        return value;
+    }
+    public int GetInteligence()
+    {
+        int value = this.BaseInteligence;
+
+        return value;
+    }
+    public int GetCharisma()
+    {
+        int value = this.BaseCharisma;
+
+        return value;
+    }
 }
