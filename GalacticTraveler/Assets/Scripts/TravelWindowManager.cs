@@ -16,13 +16,11 @@ public class TravelWindowManager : MonoBehaviour
         gm = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>();
         Show();
     }
-    void Update()
-    {
-
-    }
 
     public void Show()
     {
+        foreach (GameObject go in OptionsMenu) Destroy(go);
+
         CurrentLocationText.text = gm.PlayerLocation.name;
         foreach(Location exit in gm.PlayerLocation.Exits)
         {

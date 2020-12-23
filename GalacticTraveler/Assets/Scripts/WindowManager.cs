@@ -6,6 +6,6 @@ public class WindowManager : MonoBehaviour
 {
     public void CloseWindowButton()
     {
-        Destroy(gameObject);
+        gameObject.SetActive(false);
     }
 }
