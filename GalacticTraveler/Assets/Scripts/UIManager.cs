@@ -6,6 +6,7 @@ public class UIManager : MonoBehaviour
 {
     // Prefabs
     public GameObject CharacterWindow;
+    public GameObject TravelWindow;
 
     // Start is called before the first frame update
     void Start()

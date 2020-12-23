@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a72cda03822f74d899b7c5f9561a74, type: 3}
+  m_Name: Saint Mary Hospital
+  m_EditorClassIdentifier: 
+  isAvailable: 1
+  Exits:
+  - {fileID: 11400000, guid: bec853a73cb9c3c4f82e492ec87137de, type: 2}
